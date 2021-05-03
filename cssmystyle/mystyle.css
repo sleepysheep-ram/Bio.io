@@ -1,0 +1,311 @@
+
+/*
+body{
+    background-color: blue
+    
+}
+
+*/
+
+body{
+    text-align: center;
+        background-color: #fff3e2
+}
+
+h1{
+margin-top: 0px;
+       align-items: center;
+    margin: auto;
+width:300px;
+padding:5px ;
+    font-family: 'Courier New', monospace;
+         background-color: #fff3e2;
+        border-radius: 5px; 
+}
+
+.blankspace{
+   background-color: #fff3e2;
+    height:200px
+}
+
+
+/*.top{
+     border-radius: 100px;
+    border-bottom-left-radius: 
+    align-items: center;
+    margin: auto;
+
+padding:20px;
+    height: 400px;
+    width:500px;
+     background-color: #ffaaa7;
+    font-size: 20px
+    
+}
+*/
+/*.middle{
+     margin-top: 0px;
+
+padding:5px;
+    height: 250px;
+    width:250px;
+     background-color: #d5ecc2
+}
+    */
+.bottom{
+    height: 250px;
+    width:250px;
+     background-color: #ffd3b4
+}
+    
+h2{
+   
+    font-family: 'Courier New', monospace;
+ 
+}
+
+#hobbieh2{
+    height: 30px;
+    width: 225px;
+    background-color: #fff3e2;
+    font-family: 'Courier New', monospace;
+        border-radius: 5px; 
+    
+}
+#tumblrtag{
+    font-size:20px
+    
+}
+
+#instatag{
+    font-size:20px
+}
+        
+.bubble {
+  position: relative;
+    align-items: center;
+    margin: auto;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  width: 600px;
+    height: 350px;
+  background: #ffaaa7;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #ffaaa7;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #ffaaa7;
+  border-bottom: 20px solid transparent;
+  left: 32px;
+  bottom: -24px;
+}
+
+.bubble2 {
+  position: relative;
+   align-items: center;
+    margin: auto;
+  font-size: 18px;
+  line-height: 24px;
+  width: 600px;
+    height: 320px;
+  background: #ffa5a5;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: left;
+  color: #000;
+}
+
+.bubble-bottom-left2:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 24px solid #ffa5a5;
+  border-left: 12px solid transparent;
+  border-top: 12px solid #ffa5a5;
+  border-bottom: 20px solid transparent;
+  right: 32px;
+  bottom: -24px;
+}
+
+.hobbies{
+   background-color: #fff3e2;
+    
+        border-radius: 5px;  
+    font-family:"Lucida Handwriting", cursive;
+}
+
+.bottomhobbies{
+    padding: 0px;
+   height: 22px
+}
+
+#me{
+    position: absolute;
+    border-radius: 50px;
+        left:120px;
+    top:670px;
+}
+
+.heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+    }
+    .heart:before,
+    .heart:after {
+      position: absolute;
+      content: "";
+      left: 660px;
+      top: 250px;
+      width: 50px;
+      height: 80px;
+      background: #c9485b;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    .heart:after {
+      left: 610px;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+
+p{
+   font-family: "Lucida Handwriting", cursive
+    
+}
+
+#funfactsh2{
+    margin-top: 0px;
+       align-items: center;
+    margin: auto;
+width:150px;
+padding:5px ;
+    font-family: 'Courier New', monospace;
+         background-color: #fff3e2;
+
+        border-radius: 5px; 
+}
+
+
+
+
+
+/* <img src="imagenes/new%20tumblr%20logo.png" width="50px" style="float:left">
+         
+        
+         <div>
+         
+          <p id="tumblrtag"><a href="https://sleepysheeponeshots.tumblr.com/" style="float:left">@sleepysheepsoneshots</a>
+          
+          </p>
+           
+          <br><br>   
+          
+           <img src="imagenes/instagramnew.png" height="70px" style="float:left">
+           
+             <p id="instatag" style="float:left"><a href="https://www.instagram.com/the.faes.garden/" target="_blank">@the_faes_garden</a>
+           
+               </p>
+         
+         </div>
+         
+         <div class="blankspace">
+         
+         
+         </div>
+          <p style="float:right">
+          @Copyright would go here 
+          </p>
+   */
+
+
+.bubble3 {
+  position: relative;
+    align-items: center;
+    margin: auto;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  width: 500px;
+    height: 730px;
+  background: #ffaaa7;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #ffaaa7;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #ffaaa7;
+  border-bottom: 20px solid transparent;
+  left: 32px;
+  bottom: -24px;
+}
+
+#hobbieh3{
+    height: 50px;
+    width: 450px;
+    background-color: #fff3e2;
+    font-family: 'Courier New', monospace;
+        border-radius: 10px; 
+}
+    
+   .blankspace2{
+   background-color: #fff3e2;
+    height:0px
+} 
+    
+.bubble4 {
+  position: relative;
+    align-items: center;
+    margin: auto;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  width: 350px;
+    height: 250px;
+  background: #ffaaa7;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left4:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-right: 24px solid #ffa5a5;
+  border-left: 12px solid transparent;
+  border-top: 12px solid #ffa5a5;
+  border-bottom: 20px solid transparent;
+  right: 32px;
+  bottom: -24px;
+}
+    
+#hobbieh4{
+    height: 100px;
+    width: 350px;
+    background-color: #fff3e2;
+    font-family: 'Courier New', monospace;
+        border-radius: 10px; 
+}
